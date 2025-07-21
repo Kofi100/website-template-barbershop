@@ -1,0 +1,246 @@
+=======
+<body class="bg-black">
+>>>>>>> REPLACE
+
+<<<<<<< SEARCH
+<nav class="bg-gray-800 text-white p-4">
+			<a href="#home" class="mx-4 hover:underline">Home</a>
+			<a href="#about" class="mx-4 hover:underline">About</a>
+			<a href="#services" class="mx-4 hover:underline">Services</a>
+			<a href="#contact" class="mx-4 hover:underline">Contact</a>
+		</nav>
+=======
+<nav class="bg-black text-white p-4">
+			<a href="#home" class="mx-4 hover:underline hover:text-amber-400">Home</a>
+			<a href="#about" class="mx-4 hover:underline hover:text-amber-400">About</a>
+			<a href="#services" class="mx-4 hover:underline hover:text-amber-400">Services</a>
+			<a href="#contact" class="mx-4 hover:underline hover:text-amber-400">Contact</a>
+		</nav>
+>>>>>>> REPLACE
+
+<<<<<<< SEARCH
+<section
+				id="home"
+				class="bg-gray-300 h-[50vh] text-center flex items-center justify-center bg-[url(/assets/images/agustin-fernandez-Znyjl9pbaUs-unsplash.jpg)] bg-cover"
+			>
+				<h1 class="font-bold text-4xl max-w-3xl mx-auto px-4 text-white">
+					Welcome to SharpKutz – Kumasi's Trusted Barbershop for Sharp, Clean
+					Cuts.
+				</h1>
+			</section>
+=======
+<section
+				id="home"
+				class="bg-black h-[50vh] text-center flex items-center justify-center bg-[url(/assets/images/agustin-fernandez-Znyjl9pbaUs-unsplash.jpg)] bg-cover"
+			>
+				<h1 class="font-bold text-4xl max-w-3xl mx-auto px-4 text-amber-400 drop-shadow-lg">
+					Welcome to SharpKutz – Kumasi's Trusted Barbershop for Sharp, Clean
+					Cuts.
+				</h1>
+			</section>
+>>>>>>> REPLACE
+
+<<<<<<< SEARCH
+<section
+				id="about"
+				class="bg-amber-900 text-white h-auto text-center p-8 max-w-max mx-auto grid justify-items-center"
+			>
+				<h2 class="font-bold text-3xl mb-6">About Us</h2>
+				<p class="text-lg leading-relaxed w-[70%]">
+					At SharpKutz, we blend tradition with modern style. With over 5 years
+					of experience, our team offers professional haircuts, beard grooming,
+					and styling for men and boys. We value hygiene, punctuality, and
+					making sure you leave fresh and confident.
+				</p>
+			</section>
+=======
+<section
+				id="about"
+				class="bg-red-900 text-white h-auto text-center p-8 max-w-max mx-auto grid justify-items-center"
+			>
+				<h2 class="font-bold text-3xl mb-6">About Us</h2>
+				<p class="text-lg leading-relaxed w-[70%]">
+					At SharpKutz, we blend tradition with modern style. With over 5 years
+					of experience, our team offers professional haircuts, beard grooming,
+					and styling for men and boys. We value hygiene, punctuality, and
+					making sure you leave fresh and confident.
+				</p>
+			</section>
+>>>>>>> REPLACE
+
+<<<<<<< SEARCH
+<section
+				id="services"
+				class="bg-gray-800 h-auto text-center p-8 max-w-max mx-auto text-white"
+			>
+				<h2 class="font-bold text-3xl mb-8">Our Services</h2>
+				<section
+					class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 text-black"
+				>
+					<div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+						<div class="mb-4 text-5xl">✂️</div>
+						<h3 class="font-semibold mb-2">Haircuts</h3>
+						<p>Clean fades, trims, and stylish cuts for all ages.</p>
+					</div>
+					<div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+						<div class="mb-4 text-5xl">🧔</div>
+						<h3 class="font-semibold mb-2">Beard Grooming</h3>
+						<p>Line-ups, shaping, and full beard treatments.</p>
+					</div>
+					<div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+						<div class="mb-4 text-5xl">💈</div>
+						<h3 class="font-semibold mb-2">Classic Shave</h3>
+						<p>Hot towel shaves for the ultimate relaxation.</p>
+					</div>
+					<div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+						<div class="mb-4 text-5xl">📅</div>
+						<h3 class="font-semibold mb-2">Appointments</h3>
+						<p>Schedule your cut in advance and skip the queue.</p>
+					</div>
+					<div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+						<div class="mb-4 text-5xl">🏠</div>
+						<h3 class="font-semibold mb-2">Home Services</h3>
+						<p>VIP in-home grooming services (by request).</p>
+					</div>
+				</section>
+			</section>
+=======
+<section
+				id="services"
+				class="bg-black h-auto text-center p-8 max-w-max mx-auto text-white"
+			>
+				<h2 class="font-bold text-3xl mb-8">Our Services</h2>
+				<section
+					class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 text-black"
+				>
+					<div class="bg-amber-400 p-6 rounded shadow hover:shadow-lg transition">
+						<div class="mb-4 text-5xl">✂️</div>
+						<h3 class="font-semibold mb-2">Haircuts</h3>
+						<p>Clean fades, trims, and stylish cuts for all ages.</p>
+					</div>
+					<div class="bg-amber-400 p-6 rounded shadow hover:shadow-lg transition">
+						<div class="mb-4 text-5xl">🧔</div>
+						<h3 class="font-semibold mb-2">Beard Grooming</h3>
+						<p>Line-ups, shaping, and full beard treatments.</p>
+					</div>
+					<div class="bg-amber-400 p-6 rounded shadow hover:shadow-lg transition">
+						<div class="mb-4 text-5xl">💈</div>
+						<h3 class="font-semibold mb-2">Classic Shave</h3>
+						<p>Hot towel shaves for the ultimate relaxation.</p>
+					</div>
+					<div class="bg-amber-400 p-6 rounded shadow hover:shadow-lg transition">
+						<div class="mb-4 text-5xl">📅</div>
+						<h3 class="font-semibold mb-2">Appointments</h3>
+						<p>Schedule your cut in advance and skip the queue.</p>
+					</div>
+					<div class="bg-amber-400 p-6 rounded shadow hover:shadow-lg transition">
+						<div class="mb-4 text-5xl">🏠</div>
+						<h3 class="font-semibold mb-2">Home Services</h3>
+						<p>VIP in-home grooming services (by request).</p>
+					</div>
+				</section>
+			</section>
+>>>>>>> REPLACE
+
+<<<<<<< SEARCH
+<section class="bg-amber-900 h-auto text-center p-8 max-w-max mx-auto">
+				<h2 class="text-white font-bold text-3xl mb-8">Why Choose Us</h2>
+				<section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+					<div class="bg-white p-4 rounded shadow">
+						<h3 class="font-semibold mb-2">Experienced Barbers</h3>
+						<p>Skilled team trained in modern and traditional styles.</p>
+					</div>
+					<div class="bg-white p-4 rounded shadow">
+						<h3 class="font-semibold mb-2">Clean & Safe</h3>
+						<p>Strict hygiene and safety protocols in place.</p>
+					</div>
+					<div class="bg-white p-4 rounded shadow">
+						<h3 class="font-semibold mb-2">Affordable Prices</h3>
+						<p>Top-notch services that won’t break the bank.</p>
+					</div>
+					<div class="bg-white p-4 rounded shadow">
+						<h3 class="font-semibold mb-2">Easy Booking</h3>
+						<p>Book online, call, or just walk in. We’re ready.</p>
+					</div>
+				</section>
+			</section>
+=======
+<section class="bg-red-900 h-auto text-center p-8 max-w-max mx-auto">
+				<h2 class="text-white font-bold text-3xl mb-8">Why Choose Us</h2>
+				<section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+					<div class="bg-amber-400 p-4 rounded shadow">
+						<h3 class="font-semibold mb-2">Experienced Barbers</h3>
+						<p>Skilled team trained in modern and traditional styles.</p>
+					</div>
+					<div class="bg-amber-400 p-4 rounded shadow">
+						<h3 class="font-semibold mb-2">Clean & Safe</h3>
+						<p>Strict hygiene and safety protocols in place.</p>
+					</div>
+					<div class="bg-amber-400 p-4 rounded shadow">
+						<h3 class="font-semibold mb-2">Affordable Prices</h3>
+						<p>Top-notch services that won’t break the bank.</p>
+					</div>
+					<div class="bg-amber-400 p-4 rounded shadow">
+						<h3 class="font-semibold mb-2">Easy Booking</h3>
+						<p>Book online, call, or just walk in. We’re ready.</p>
+					</div>
+				</section>
+			</section>
+>>>>>>> REPLACE
+
+<<<<<<< SEARCH
+<section
+				class="bg-green-500 h-auto text-center p-8 max-w-md mx-auto rounded-lg shadow m-4 hover:bg-green-300 transition-all cursor-pointer"
+			>
+				<a
+					href="#"
+					class="font-bold text-white flex justify-center w-full"
+					aria-label="Book Now"
+				>
+					Book Now
+				</a>
+			</section>
+=======
+<section
+				class="bg-red-700 h-auto text-center p-8 max-w-md mx-auto rounded-lg shadow m-4 hover:bg-red-500 transition-all cursor-pointer"
+			>
+				<a
+					href="#"
+					class="font-bold text-white flex justify-center w-full"
+					aria-label="Book Now"
+				>
+					Book Now
+				</a>
+			</section>
+>>>>>>> REPLACE
+
+<<<<<<< SEARCH
+<button
+						type="submit"
+						class="bg-green-500 text-white font-bold py-2 rounded hover:bg-green-300 transition"
+					>
+						Submit
+					</button>
+=======
+<button
+						type="submit"
+						class="bg-red-700 text-white font-bold py-2 rounded hover:bg-red-500 transition"
+					>
+						Submit
+					</button>
+>>>>>>> REPLACE
+
+<<<<<<< SEARCH
+<footer class="bg-gray-800 text-white p-6 mt-12">
+=======
+<footer class="bg-black text-white p-6 mt-12">
+>>>>>>> REPLACE
+
+<<<<<<< SEARCH
+<a href="#" aria-label="Facebook" class="hover:text-green-400"
+							>📘</a
+						>
+=======
+<a href="#" aria-label="Facebook" class="hover:text-amber-400"
+							>📘</a
+						>

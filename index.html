@@ -3,109 +3,254 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Your Business Name</title>
+
+		<title>SharpKutz Barbershop | Quality Haircuts in Kumasi</title>
 		<link rel="stylesheet" href="./dist/output.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
-	<body>
-		<nav class="bg-gray-800 text-white p-4">
-			<a href="#home" class="mx-4 hover:underline">Home</a>
-			<a href="#about" class="mx-4 hover:underline">About</a>
-			<a href="#services" class="mx-4 hover:underline">Services</a>
-			<a href="#contact" class="mx-4 hover:underline">Contact</a>
+	<body class="bg-black">
+		<nav class="bg-black text-white p-4">
+			<a href="#home" class="mx-4 hover:underline hover:text-amber-400">Home</a>
+			<a href="#about" class="mx-4 hover:underline hover:text-amber-400"
+				>About</a
+			>
+			<a href="#services" class="mx-4 hover:underline hover:text-amber-400"
+				>Services</a
+			>
+			<a href="#contact" class="mx-4 hover:underline hover:text-amber-400"
+				>Contact</a
+			>
 		</nav>
 		<main>
 			<!-- intro -->
 			<section
 				id="home"
-				class="bg-gray-300 h-[50vh] text-center flex items-center justify-center"
+				class="relative h-[50vh] text-center grid content-center items-center bg-[url(/assets/images/agustin-fernandez-Znyjl9pbaUs-unsplash.jpg)] bg-cover bg-center"
 			>
-				<h1 class="font-bold text-4xl max-w-3xl mx-auto px-4">
-					Welcome to Your Business Name - Quality Services You Can Trust
-				</h1>
+				<!-- Overlay -->
+				<div class="absolute inset-0 bg-black opacity-70 z-0"></div>
+
+				<!-- Content -->
+				<div class="relative z-10">
+					<h1
+						class="font-bold text-4xl max-w-3xl mb-6 mx-auto px-4 text-amber-400 drop-shadow-lg"
+					>
+						Welcome to SharpKutz
+					</h1>
+					<p class="text-4xl text-amber-400 drop-shadow-lg">
+						Kumasi's Trusted Barbershop for Sharp, Clean Cuts.
+					</p>
+				</div>
 			</section>
 
 			<!-- about -->
 			<section
 				id="about"
-				class="bg-gray-100 h-auto text-center p-8 max-w-max mx-auto"
+				class="bg-red-900 text-white h-auto text-center p-8 max-w-max mx-auto grid justify-items-center"
 			>
 				<h2 class="font-bold text-3xl mb-6">About Us</h2>
-				<p class="text-lg leading-relaxed">
-					At Your Business Name, we are committed to delivering exceptional
-					services that meet your needs. Our mission is to provide reliable,
-					high-quality solutions with integrity and professionalism. We value
-					our customers and strive to build lasting relationships based on trust
-					and excellence.
+				<p class="text-lg leading-relaxed w-[70%]">
+					At SharpKutz, we blend tradition with modern style. With over 5 years
+					of experience, our team offers professional haircuts, beard grooming,
+					and styling for men and boys. We value hygiene, punctuality, and
+					making sure you leave fresh, confident, and sharp.
 				</p>
 			</section>
 
 			<!-- services -->
 			<section
 				id="services"
-				class="bg-gray-200 h-auto text-center p-8 max-w-max mx-auto"
+				class="bg-black h-auto text-center p-8 max-w-max mx-auto text-white"
 			>
 				<h2 class="font-bold text-3xl mb-8">Our Services</h2>
 				<section
-					class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6"
+					class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 text-black"
 				>
-					<div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
-						<div class="mb-4 text-5xl">🔧</div>
-						<h3 class="font-semibold mb-2">Service One</h3>
-						<p>High-quality service tailored to your specific needs.</p>
+					<div
+						class="bg-amber-400 p-6 rounded shadow hover:shadow-lg transition"
+					>
+						<div class="mb-4 text-5xl">✂️</div>
+						<h3 class="font-semibold mb-2">Haircuts for All Ages</h3>
+						<p>Clean fades, trims, and stylish cuts for all ages.</p>
 					</div>
-					<div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
-						<div class="mb-4 text-5xl">💼</div>
-						<h3 class="font-semibold mb-2">Service Two</h3>
-						<p>Professional consulting to help your business grow.</p>
+					<div
+						class="bg-amber-400 p-6 rounded shadow hover:shadow-lg transition"
+					>
+						<div class="mb-4 text-5xl">🧔</div>
+						<h3 class="font-semibold mb-2">Beard Grooming</h3>
+						<p>Line-ups, shaping, and full beard treatments.</p>
 					</div>
-					<div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
-						<div class="mb-4 text-5xl">📈</div>
-						<h3 class="font-semibold mb-2">Service Three</h3>
-						<p>Data-driven strategies for measurable results.</p>
+					<div
+						class="bg-amber-400 p-6 rounded shadow hover:shadow-lg transition"
+					>
+						<div class="mb-4 text-5xl">💈</div>
+						<h3 class="font-semibold mb-2">Classic Shave</h3>
+						<p>Hot towel shaves for the ultimate relaxation.</p>
 					</div>
-					<div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
-						<div class="mb-4 text-5xl">🛠️</div>
-						<h3 class="font-semibold mb-2">Service Four</h3>
-						<p>Technical support and maintenance you can rely on.</p>
+					<div
+						class="bg-amber-400 p-6 rounded shadow hover:shadow-lg transition"
+					>
+						<div class="mb-4 text-5xl">📅</div>
+						<h3 class="font-semibold mb-2">Easy Booking</h3>
+						<p>Schedule your cut in advance and skip the queue.</p>
 					</div>
-					<div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
-						<div class="mb-4 text-5xl">🌐</div>
-						<h3 class="font-semibold mb-2">Service Five</h3>
-						<p>Comprehensive digital solutions for your online presence.</p>
+					<div
+						class="bg-amber-400 p-6 rounded shadow hover:shadow-lg transition"
+					>
+						<div class="mb-4 text-5xl">🏠</div>
+						<h3 class="font-semibold mb-2">Home Services</h3>
+						<p>VIP in-home grooming services (by request).</p>
 					</div>
 				</section>
 			</section>
 
 			<!-- features/partners -->
-			<section class="bg-gray-100 h-auto text-center p-8 max-w-max mx-auto">
-				<h2 class="font-bold text-3xl mb-8">Why Choose Us</h2>
+			<section class="bg-red-900 h-auto text-center p-8 max-w-max mx-auto">
+				<h2 class="text-white font-bold text-3xl mb-8">Why Choose Us</h2>
 				<section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-					<div class="bg-white p-4 rounded shadow">
-						<h3 class="font-semibold mb-2">Trusted Experts</h3>
-						<p>Our team has years of experience in the industry.</p>
+					<div class="bg-amber-400 p-4 rounded shadow">
+						<h3 class="font-semibold mb-2">Experienced Barbers</h3>
+						<p>Skilled team trained in modern and traditional styles.</p>
 					</div>
-					<div class="bg-white p-4 rounded shadow">
-						<h3 class="font-semibold mb-2">Customer Focused</h3>
-						<p>We prioritize your satisfaction and success.</p>
+					<div class="bg-amber-400 p-4 rounded shadow">
+						<h3 class="font-semibold mb-2">Clean & Safe</h3>
+						<p>Strict hygiene and safety protocols in place.</p>
 					</div>
-					<div class="bg-white p-4 rounded shadow">
-						<h3 class="font-semibold mb-2">Innovative Solutions</h3>
-						<p>We use the latest technology to solve your problems.</p>
+					<div class="bg-amber-400 p-4 rounded shadow">
+						<h3 class="font-semibold mb-2">Affordable Prices</h3>
+						<p>Top-notch services that won’t break the bank.</p>
 					</div>
-					<div class="bg-white p-4 rounded shadow">
-						<h3 class="font-semibold mb-2">24/7 Support</h3>
-						<p>We're here to help whenever you need us.</p>
+					<div class="bg-amber-400 p-4 rounded shadow">
+						<h3 class="font-semibold mb-2">Easy Booking</h3>
+						<p>Book online, call, or just walk in. We’re ready.</p>
 					</div>
 				</section>
 			</section>
 
-			<!-- contact -->
-			<section id="contact" class="bg-gray-300 h-auto text-center p-8 mx-auto">
+			<section
+				class="bg-red-700 h-auto text-center p-8 max-w-md mx-auto rounded-lg shadow m-4 hover:bg-red-500 transition-all cursor-pointer"
+			>
+				<a
+					href="#"
+					class="font-bold text-white flex justify-center w-full"
+					aria-label="Book Now"
+				>
+					Book Now
+				</a>
+			</section>
+			<!-- <a
+				href=""
+				class="bg-green-500 font-bold text-white flex justify-center w-auto"
+				>Book Now</a
+			> -->
+
+			<!-- contact-Old -->
+			<!-- <section id="contact" class="bg-gray-300 h-auto text-center p-8 mx-auto">
 				<h2 class="font-bold text-3xl mb-6">Contact Us</h2>
-				<p class="mb-4">Email: contact@yourbusiness.com</p>
-				<p class="mb-4">Phone: (123) 456-7890</p>
-				<p>Address: 123 Business St, City, Country</p>
+				<p class="mb-4">📧 Email: sharpkutz@gmail.com</p>
+				<p class="mb-4">📱 WhatsApp: +233 24 456 7890</p>
+				<p>📍 Location: Ahodwo Roundabout, Kumasi, Ghana</p>
+			</section> -->
+			<!-- booking/contact form -->
+			<section
+				id="booking"
+				class="bg-gray-100 p-8 max-w-md mx-auto rounded-lg shadow my-8"
+			>
+				<h2 class="font-bold text-3xl mb-6 text-center">Book an Appointment</h2>
+				<form action="#" method="POST" class="flex flex-col gap-4">
+					<label for="name" class="text-left font-semibold">Name</label>
+					<input
+						type="text"
+						id="name"
+						name="name"
+						placeholder="Your full name"
+						required
+						class="p-2 border border-gray-300 rounded"
+					/>
+					<label for="phone" class="text-left font-semibold"
+						>Phone Number</label
+					>
+					<input
+						type="tel"
+						id="phone"
+						name="phone"
+						placeholder="+233 24 000 0000"
+						pattern="^\+233\s?\d{2}\s?\d{3}\s?\d{4}$"
+						required
+						class="p-2 border border-gray-300 rounded"
+					/>
+					<label for="service" class="text-left font-semibold"
+						>Select Service</label
+					>
+					<select
+						id="service"
+						name="service"
+						required
+						class="p-2 border border-gray-300 rounded"
+					>
+						<option value="" disabled selected>Select a service</option>
+						<option value="haircut">Haircut</option>
+						<option value="beard">Beard Grooming</option>
+						<option value="shave">Classic Shave</option>
+						<option value="home">Home Service</option>
+					</select>
+					<label for="message" class="text-left font-semibold"
+						>Additional Notes (Optional)</label
+					>
+					<textarea
+						id="message"
+						name="message"
+						rows="3"
+						placeholder="Any special requests or questions?"
+						class="p-2 border border-gray-300 rounded"
+					></textarea>
+					<button
+						type="submit"
+						class="bg-red-700 text-white font-bold py-2 rounded hover:bg-red-500 transition"
+					>
+						Submit
+					</button>
+				</form>
 			</section>
 		</main>
+		<!-- footer -->
+		<footer class="bg-black text-white p-6 mt-12">
+			<div
+				class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6 text-center sm:text-left"
+			>
+				<div>
+					<h3 class="font-bold text-xl mb-2">SharpKutz Barbershop</h3>
+					<p>Ahodwo Roundabout, Kumasi, Ghana</p>
+					<p>📞 +233 24 456 7890</p>
+					<p>📧 sharpkutz@gmail.com</p>
+				</div>
+				<div>
+					<h3 class="font-bold text-xl mb-2">Business Hours</h3>
+					<p>Mon - Fri: 8:00 AM - 7:00 PM</p>
+					<p>Sat: 9:00 AM - 5:00 PM</p>
+					<p>Sun: Closed</p>
+				</div>
+				<div>
+					<h3 class="font-bold text-xl mb-2">Follow Us</h3>
+					<div class="flex justify-center sm:justify-start gap-4 text-2xl">
+						<a href="#" aria-label="Facebook" class="hover:text-amber-400"
+							>📘</a
+						>
+						<a href="#" aria-label="Instagram" class="hover:text-pink-500"
+							>📸</a
+						>
+						<a href="#" aria-label="Twitter" class="hover:text-blue-400">🐦</a>
+					</div>
+				</div>
+			</div>
+			<div class="text-center mt-6 text-sm text-gray-400">
+				&copy; 2024 SharpKutz Barbershop. All rights reserved.
+			</div>
+		</footer>
 	</body>
 </html>
