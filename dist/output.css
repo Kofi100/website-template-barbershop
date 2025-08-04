@@ -357,8 +357,17 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-\[url\(\.\/assets\/images\/agustin-fernandez-Znyjl9pbaUs-unsplash\.jpg\)\] {
+    background-image: url(./assets/images/agustin-fernandez-Znyjl9pbaUs-unsplash.jpg);
+  }
+  .bg-\[url\(\.\/public\/images\/agustin-fernandez-Znyjl9pbaUs-unsplash\.jpg\)\] {
+    background-image: url(./public/images/agustin-fernandez-Znyjl9pbaUs-unsplash.jpg);
+  }
   .bg-\[url\(\/assets\/images\/agustin-fernandez-Znyjl9pbaUs-unsplash\.jpg\)\] {
     background-image: url(/assets/images/agustin-fernandez-Znyjl9pbaUs-unsplash.jpg);
+  }
+  .bg-\[url\(assets\/images\/agustin-fernandez-Znyjl9pbaUs-unsplash\.jpg\)\] {
+    background-image: url(assets/images/agustin-fernandez-Znyjl9pbaUs-unsplash.jpg);
   }
   .bg-cover {
     background-size: cover;
